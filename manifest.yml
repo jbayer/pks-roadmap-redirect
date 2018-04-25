@@ -1,0 +1,10 @@
+---
+applications:
+- name: pks-roadmap-redirect
+  memory: 64M
+  instances: 1
+  buildpack: staticfile_buildpack
+  env:
+    REDIRECT_URL: https://docs.google.com/presentation/d/1fwP_kIY_pa8ToZUGFxBkjoexxn29jBy9NlhIhwuAyvU/view?
+  routes:
+  - route: pksroadmap.cfapps.io
