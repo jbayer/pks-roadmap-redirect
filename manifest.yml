@@ -5,6 +5,6 @@ applications:
   instances: 1
   buildpack: staticfile_buildpack
   env:
-    REDIRECT_URL: https://docs.google.com/presentation/d/1fwP_kIY_pa8ToZUGFxBkjoexxn29jBy9NlhIhwuAyvU/view?
+    REDIRECT_URL: https://docs.google.com/presentation/d/1iqG--KvKKxXIxu2mXiXxeLPwc0PXf9USFjCjK9gaDt0/edit
   routes:
   - route: pksroadmap.cfapps.io
